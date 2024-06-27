@@ -1,0 +1,29 @@
+.homeContainer {
+  border: 2px solid #b8860b; 
+  margin-top: 200px;
+  padding: 20px;
+  border-radius: 8px;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.7); /* Translucent black background */
+  color: white;
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.homeContainer h1 {
+  margin: 0;
+}
+
+.homeContainer a {
+  color: #ffd700; /* Gold color for the link */
+  text-decoration: none;
+}
+
+.homeContainer a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+.homeContainer:hover {
+  background-color: gold; /* Change background color on hover */
+  color: black; /* Optionally change text color to black for better contrast */
+}
